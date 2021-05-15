@@ -1,0 +1,32 @@
+.Navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 40px;
+  z-index: 1;
+  transition: all 0.4s;
+  transition-timing-function: ease-in;
+}
+
+.Navbar-Black {
+  background-color: #111;
+}
+
+.Navbar-Logo {
+  width: 80px;
+  object-fit: contain;
+  position: fixed;
+  left: 20px;
+  top: 12px;
+}
+
+.Navbar-Avatar {
+  width: 30px;
+  object-fit: contain;
+  position: fixed;
+  right: 50px;
+  top: 28px;
+}

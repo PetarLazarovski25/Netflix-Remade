@@ -1,0 +1,44 @@
+.Row {
+  margin-left: 20px;
+  color: white;
+}
+
+.Row-Poster {
+  object-fit: contain;
+  width: auto;
+  max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.Row-Poster:hover {
+  transform: scale(1.08);
+}
+
+.Row-PosterLarge {
+  max-height: 250px;
+}
+
+.Row-PosterLarge:hover {
+  transform: scale(1.09);
+}
+
+.Row-Posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 10px;
+}
+
+.Row-Posters::-webkit-scrollbar {
+  display: none;
+}
+
+.Row-Trailer {
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 70%;
+  outline: none;
+  object-fit: contain;
+  margin: auto;
+}
